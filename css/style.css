@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -72,4 +74,22 @@ body{
     text-decoration:none;
     color: #fff;
     font-size:20px;
+}
+
+.banner_section {
+    background: rgb(156 154 154 / 38%) url(../images/Title_Image.webp);
+    background-size: cover;
+    background-position: center center;
+    min-height: 320px;
+    background-blend-mode: color-burn;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_section h1{
+    color: #fff;
+    font-size:50px;
+    font-family: 'Futura', sans-serif;
+    line-height: 1.2;
 }
