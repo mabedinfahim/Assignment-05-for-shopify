@@ -93,3 +93,42 @@ body{
     font-family: 'Futura', sans-serif;
     line-height: 1.2;
 }
+
+.flexfit_section{
+    margin:50px 0px;
+}
+
+.flexfit_section h1{
+    text-align: center;
+    margin-bottom:50px;
+    margin-top: 50px;
+    font-size: 2.08rem;
+    line-height: 1.2;
+}
+
+.flexfit_inner{
+    width: 100%;
+    display:flex;
+    justify-content:space-between;
+    margin-left: 80px;
+}
+
+.flexfit_inner .col-1{
+    width: 50%;
+    align-items:center;
+    display:flex;
+    align-items:center;
+}
+
+.flexfit_inner p{
+    text-align: left;
+    padding-right: 100px;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.flexfit_inner img{
+    width: 100%;
+    max-height: 300px;
+}
