@@ -16,7 +16,7 @@ body{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding:20px 20px;
+    padding:5px 20px;
 }
 
 .social_links{
@@ -25,10 +25,16 @@ body{
     align-items:center;
 }
 
+.social_links li a{
+    text-decoration: none;
+    color: black;
+}
+
 .social_links li a i{
-    font-size:25px;
+    font-size:20px;
     padding: 0px 10px;
 }
+
 
 .user_links{
     display:flex;
@@ -36,7 +42,34 @@ body{
     align-items:center;
 }
 
+.user_links li a{
+    text-decoration: none;
+    color: black;
+}
+
 .user_links li a i{
-    font-size:25px;
+    font-size:20px;
     padding: 0px 10px;
+}
+
+.lower_menu{
+    background: #000;
+    padding:20px 0px;
+}
+
+.lower_menu ul{
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.lower_menu ul li{
+    padding:0px 20px;
+}
+
+.lower_menu ul li a{
+    text-decoration:none;
+    color: #fff;
+    font-size:20px;
 }
