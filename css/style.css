@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+.header_section{
+
+}
+
+.upper_menu{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 20px;
+}
+
+.social_links{
+    display:flex;
+    list-style: none;
+    align-items:center;
+}
+
+.social_links li a i{
+    font-size:25px;
+    padding: 0px 10px;
+}
+
+.user_links{
+    display:flex;
+    list-style: none;
+    align-items:center;
+}
+
+.user_links li a i{
+    font-size:25px;
+    padding: 0px 10px;
+}
